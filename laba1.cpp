@@ -217,14 +217,12 @@ int main() {
         case 4:
             int x4;
             x4 = input(x4);
-            std::cout << "Если число положительное вернёт 1 иначе 0: " << isPositive(x4)
-                << std::endl;
+            std::cout << "Если число положительное вернёт 1 иначе 0: " << isPositive(x4)<< std::endl;
             break;
         case 5:
             int x5;
             x5 = input(x5);
-            std::cout << "Если введённое число двузначное то 1 инча 0: "
-                << is2Digits(x5) << std::endl;
+            std::cout << "Если введённое число двузначное то 1 инча 0: "<< is2Digits(x5) << std::endl;
             break;
         case 6:
             int x6;
@@ -235,8 +233,7 @@ int main() {
             int x7, y7;
             x7 = input(x7);
             y7 = input(y7);
-            std::cout << "Результат деления первого числа на второе: "
-                << safeDiv(x7, y7) << std::endl;
+            std::cout << "Результат деления первого числа на второе: "<< safeDiv(x7, y7) << std::endl;
             break;
         case 8:
             int x8;
@@ -255,20 +252,17 @@ int main() {
             x10 = input(x10);
             y10 = input(y10);
             z10 = input(z10);
-            std::cout << "Наибольшее число из введённых: " << max3(x10, y10, z10)
-                << std::endl;
+            std::cout << "Наибольшее число из введённых: " << max3(x10, y10, z10)<< std::endl;
             break;
         case 11:
             int x11;
             x11 = input(x11);
-            std::cout << "Все числа от 0 до введённого числа: " << listNums(x11)
-                << std::endl;
+            std::cout << "Все числа от 0 до введённого числа: " << listNums(x11)<< std::endl;
             break;
         case 12:
             int x12;
             x12 = input(x12);
-            std::cout << "Все числа от введённого числа до 0: " << reverseListNums(x12)
-                << std::endl;
+            std::cout << "Все числа от введённого числа до 0: " << reverseListNums(x12)<< std::endl;
             break;
         case 13:
             int x13;
@@ -279,8 +273,7 @@ int main() {
             int x14, y14;
             x14 = input(x14);
             y14 = input(y14);
-            std::cout << x14 << " в степени " << y14 << " = " << pow(x14, y14)
-                << std::endl;
+            std::cout << x14 << " в степени " << y14 << " = " << pow(x14, y14)<< std::endl;
             break;
         case 15:
             long x15;
@@ -293,8 +286,7 @@ int main() {
             int* ptr16;
             ptr16 = inputArr(&count16);
             x16 = input(x16);
-            std::cout << "Первое вхождение числа находится по индексу: "
-                << findFirst(ptr16, x16, count16) << std::endl;
+            std::cout << "Первое вхождение числа находится по индексу: "<< findFirst(ptr16, x16, count16) << std::endl;
             delete ptr16;
             break;
         case 17:
@@ -302,16 +294,14 @@ int main() {
             int* ptr17;
             ptr17 = inputArr(&count17);
             x17 = input(x17);
-            std::cout << "Последние вхождение числа находится по индексу: "
-                << findLast(ptr17, x17, count17) << std::endl;
+            std::cout << "Последние вхождение числа находится по индексу: "<< findLast(ptr17, x17, count17) << std::endl;
             delete ptr17;
             break;
         case 18:
             int* ptr18;
             int count18;
             ptr18 = inputArr(&count18);
-            std::cout << "Наибольшее число мо модулю в этом массиве: "
-                << maxAbs(ptr18, count18) << std::endl;
+            std::cout << "Наибольшее число мо модулю в этом массиве: "<< maxAbs(ptr18, count18) << std::endl;
 
             delete ptr18;
             break;
