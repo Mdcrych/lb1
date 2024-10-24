@@ -1,7 +1,7 @@
 #include <iostream>
 
 
-// Zadanie number 1
+// Часть 1
 
 double fraction(double x) { return x - int(x); }
 
@@ -13,7 +13,7 @@ bool isPositive(int x) { return x >= 0; }
 
 bool is2Digits(int x) { return x >= 10 && x < 100; }
 
-// Zadanie number 2
+// Часть 2
 
 int absi(int x) {
   if (x < 0)
@@ -54,7 +54,7 @@ int max3(int x, int y, int z) {
   return z;
 }
 
-// Zadanie number 3
+// Часть 3
 
 std::string listNums(int x) {
   std::string result = "";
@@ -102,7 +102,7 @@ int numLen(long x) {
   return k;
 }
 
-// Zadanie number 4
+// Часть 4
 int findFirst(int arr[], int x, int count) {
   for (int i = 0; i < count; i++) {
     if (arr[i] == x)
@@ -162,6 +162,7 @@ int *deleteNegative(int arr[], int &count) {
   count = k;
   return newArr;
 }
+// Функции для облегчения ввода
 int input(int a, std::string str = "Введите число: ") {
   std::cout << str;
   std::cin >> a;
